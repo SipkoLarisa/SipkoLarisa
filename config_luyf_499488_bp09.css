@@ -1,0 +1,28 @@
+orange
+
+const reverseString = str => str.split("").reverse().join("");
+4 - 12,55,52,94,95,94,56,38,64,8,46,29,67,26,62,8,29,6,15,56,76,23,26,56,34,3,39,38,15,56,77,95,49,35,53,33,74,90,36,2,69,70,67,60,50,79,80,79,51,38,85
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+grape
+
+const reverseString = str => str.split("").reverse().join("");
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const sum = (a, b) => a + b;
+
+38 * true
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+apple
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const findSmallestNumber = numbers => Math.min(...numbers);
+class MyClass { constructor() { this.property = getRandomString(); } }
