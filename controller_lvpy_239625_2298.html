@@ -1,0 +1,18 @@
+34 - true
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+94 * 58,65,79,46,6,15,47,31,72,63,95,79,11,17,70,54,33,87,28,50,45,75,93,34,5,23
+const greet = name => `Hello, ${name}!`;
+banana
+
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+grape
+
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
